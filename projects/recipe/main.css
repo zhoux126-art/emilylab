@@ -1,0 +1,236 @@
+body {
+    background-color: #e8dfcf;
+    color: #1a1a1a;
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    padding: 40px;
+    border-bottom: 3px solid #9e1b1b;
+}
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: #9e1b1b;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+header p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+/* Sections */
+
+section {
+    background-color: #f5efe3;
+    padding: 40px;
+    margin: 30px auto;
+    max-width: 800px;
+    border: 2px solid #1a1a1a;
+}
+
+
+/* Music Player */
+
+.music-player {
+    text-align: center;
+    background-color: #171717;
+    color: #f5efe3;
+    border: 4px solid #9e1b1b;
+}
+
+.music-player h2 {
+    font-size: 30px;
+    color: #c52a2a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+/* Record */
+
+.record {
+    width: 300px;
+    height: 300px;
+    background-color: #080808;
+    border-radius: 50%;
+    margin: 30px auto;
+
+    background-image: repeating-radial-gradient(
+        circle,
+        #080808 0px,
+        #080808 7px,
+        #292929 8px,
+        #080808 10px
+    );
+
+    border: 8px solid #333;
+}
+
+
+/* Record Center */
+
+.record-center {
+    width: 65px;
+    height: 65px;
+    background-color: #9e1b1b;
+    border-radius: 50%;
+
+    position: relative;
+    top: 117px;
+    left: 117px;
+
+    border: 4px solid #e8dfcf;
+}
+
+
+/* Song */
+
+.music-player h3 {
+    font-size: 28px;
+    color: #e8dfcf;
+    margin-bottom: 5px;
+}
+
+.music-player p {
+    color: #bdb5a7;
+}
+
+
+/* NetEase Button */
+
+.music-player a {
+    display: inline-block;
+
+    background-color: #9e1b1b;
+    color: #f5efe3;
+
+    padding: 14px 25px;
+    margin-top: 15px;
+
+    border: 2px solid #e8dfcf;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.music-player a:hover {
+    background-color: #c52a2a;
+}
+
+
+/* Recipe */
+
+.recipe h2,
+.results h2,
+.comparison h2 {
+    font-size: 35px;
+    color: #9e1b1b;
+    text-transform: uppercase;
+    border-bottom: 2px solid #9e1b1b;
+    padding-bottom: 10px;
+}
+
+.recipe p,
+.results p,
+.comparison p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* Images */
+
+.results img {
+    max-width: 100%;
+    margin-top: 20px;
+    border: 3px solid #1a1a1a;
+}
+.recipe {
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    background-color: #171717;
+    border: 3px solid #9e1b1b;
+}
+
+.album-cover {
+    width: 35%;
+    background-color: #8f1d1d;
+    color: #f5efe3;
+    padding: 40px;
+    text-align: center;
+}
+
+.album-cover h2 {
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: #f5efe3;
+    text-shadow: 2px 2px 0px #5c1111;
+}
+
+.album-cover p {
+    font-style: italic;
+}
+
+.recipe-content {
+    width: 65%;
+    background-color: #f5efe3;
+    padding: 40px;
+}
+
+.recipe-content h2 {
+    color: #9e1b1b;
+    font-size: 40px;
+    border-bottom: 2px solid #9e1b1b;
+    padding-bottom: 15px;
+}
+
+.recipe-content p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.recipe-content strong {
+    color: #9e1b1b;
+    font-size: 22px;
+    margin-right: 10px;
+}
+.small-record {
+    width: 220px;
+    height: 220px;
+    background-color: #080808;
+    border-radius: 50%;
+    margin: 40px auto;
+
+    background-image: repeating-radial-gradient(
+        circle,
+        #080808 0px,
+        #080808 7px,
+        #292929 8px,
+        #080808 10px
+    );
+
+    border: 5px solid #333;
+}
+
+.small-record-center {
+    width: 45px;
+    height: 45px;
+    background-color: #9e1b1b;
+    border-radius: 50%;
+
+    position: relative;
+    top: 87px;
+    left: 87px;
+}
